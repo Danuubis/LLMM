@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://wallpapers.com/images/featured-full/cafe-j7hjejzb0cwlu0i8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    height: 110vh;
+    backdrop-filter: blur(7px);
+    backdrop-filter: brightness(0.5);
+    font-family: 'Bebas Neue', sans-serif;
+   
+}
+
+/*
+HEADER INICIO
+*/
+
+header{
+    background-color: black;
+        color: #FFF6DD ;
+   
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img{
+    height: 5em;
+    margin-left: 3em;
+}
+
+
+nav .busqueda ul{
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF6DD;
+    margin: 0rem 3rem;
+    transition: 0.5s;
+    font-size: 1.3em;
+    
+}
+
+nav a:hover{
+   
+    color: #DD722E;
+    transition: 0.5s;
+}
+
+/*
+HEADER FINAL
+*/
+
+
+/*
+MAIN INICIO
+*/
+
+main {
+    height: 100vh;
+}
+main .contenedor{
+    display: flex;
+
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+main .contenedor h1 {
+    
+    justify-content: center;
+    font-size: 5rem;
+    margin-top: 1em;
+    color: #FFF6DD;
+}
+
+main .contenedor h1 span {
+    color: #33A9EF;
+}
+
+main .contenedor h4 {
+    
+   
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #FFF6DD;
+}
+/*
+MAIN FINAL
+*/
+
+.About{
+    background-color: black;
+    height: 100vh;
+}
