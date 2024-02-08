@@ -21,16 +21,18 @@ HEADER INICIO
 
 header{
     background-color: black;
-        color: #FFF6DD ;
-   
-    
-    
+    color: #FFF6DD ;
+    top: 0;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+
 }
 
 nav .logo img{
@@ -104,9 +106,9 @@ MAIN FINAL
 */
 
 .servicios{
-    background-color: black;
-    height: 100vh;
-    color: #FFF6DD;
+    background-color: #FFF6DD;
+    height: 70vh;
+    color: black;
     display: flex;
     flex-direction: column;
 
@@ -123,17 +125,27 @@ MAIN FINAL
 
     justify-content: space-around;
     display: flex;
-    flex-direction: row;
-    margin-top: 20vh;
+    
+    
+    margin-top: 5rem;
 }
 
 .servicios_cards .card img{
-    height: 25rem;
-
+    height: 17rem;
+    width: 17rem;  
+    border-radius: 50%;
+    border: 1em solid #48774b;
 }
 
 .servicios_cards .card {
-    background-color: #FFF6DD;
-    padding: 1em;
-    color: #DD722E;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    color: #48774b;
+    
+}
+
+.servicios span {
+    color: #48774b;
 }
