@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(https://wallpapers.com/images/featured-full/cafe-j7hjejzb0cwlu0i8.jpg);
+    background-image: url(imagenes/back1.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
@@ -103,7 +103,37 @@ main .contenedor h4 {
 MAIN FINAL
 */
 
-.About{
+.servicios{
     background-color: black;
     height: 100vh;
+    color: #FFF6DD;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.servicios .servicios_titulo{
+    text-align: center;
+    margin-top: 3em;
+    font-size: 2em;
+
+}
+
+.servicios_cards{
+
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20vh;
+}
+
+.servicios_cards .card img{
+    height: 25rem;
+
+}
+
+.servicios_cards .card {
+    background-color: #FFF6DD;
+    padding: 1em;
+    color: #DD722E;
 }
