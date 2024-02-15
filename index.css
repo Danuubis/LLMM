@@ -87,7 +87,7 @@ main .contenedor h1 {
     
     justify-content: center;
     font-size: 5rem;
-    margin-top: 2em;
+    margin-top: 3em;
     color: #FFF6DD;
 }
 
@@ -226,15 +226,17 @@ MAPA INI
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem;
+    padding: 10rem 10rem 10rem 10rem;
+    
     background-color: #FFF6DD; 
 }
 
 .mapa {
     flex: 1;
+    height: 25rem;
     margin-right: 2rem; 
     border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); 
 }
 
 .mapa iframe {
@@ -276,6 +278,7 @@ FORM INI
     background-position: center;
     overflow: hidden;
     padding: 4rem 0;
+    padding-top: 10rem;
 }
 
 .contratacion span{
